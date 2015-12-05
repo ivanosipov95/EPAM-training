@@ -3,54 +3,37 @@ package javase01.t06;
 import org.junit.Test;
 import org.junit.Before;
 
-import java.util.LinkedList;
-import java.util.List;
-
 import static org.junit.Assert.*;
 
 public class NotepadTest {
 
-    private Notepad expected = new Notepad();
-    private Notepad actual =new Notepad();
-    private List<Note> notes = new LinkedList<Note>();
+    Notepad expected = new Notepad();
+    Note[] notes = new Note[4];
 
     @Before
     public void setUp() {
-        notes.add(new Note("test"));
-        expected.setNotes(notes);
+        for (int i = 0; i < notes.length; i++) {
+            notes[i] = new Note("test");
+            expected.add("test");
+        }
     }
 
     @Test
     public void testAdd() {
-        actual.add("test");
-        assertEquals(expected.getNotes(), actual.getNotes());
-    }
-
-    @Test
-    public void testRemoveByIndex() {
-        notes.remove(0);
-        expected.setNotes(notes);
-
-        actual.remove(0);
-        assertEquals(expected.getNotes(), actual.getNotes());
+        for (int i = 0; i < notes.length; i++) {
+            assertEquals(notes[i], expected.getNote(i));
+        }
     }
 
     @Test
     public void testRemove() {
-        notes.remove(0);
-        expected.setNotes(notes);
-
-        actual.add("test");
-        actual.remove(new Note("test"));
-
-        assertEquals(expected.getNotes(), actual.getNotes());
+        expected.remove(1);
+        assertEquals(3, expected.getNotes().length);
     }
 
     @Test
     public void testChangeNote() {
-        actual.add("test");
-        actual.changeNote(0, "new test");
-
-        assertEquals("new test", actual.getAll().get(0).getNote());
+        expected.changeNote(0, "TEST");
+        assertEquals("TEST", expected.getNote(0).toString());
     }
 }

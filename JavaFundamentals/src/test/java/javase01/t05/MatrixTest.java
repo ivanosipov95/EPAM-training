@@ -6,7 +6,7 @@ import static org.junit.Assert.*;
 
 public class MatrixTest {
 
-    private int[][] matrix = {
+    int[][] matrix = {
             {1, 0, 0, 1},
             {0, 1, 1, 0},
             {0, 1, 1, 0},

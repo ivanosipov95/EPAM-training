@@ -8,7 +8,7 @@ import static org.junit.Assert.*;
 
 public class SequenceTest {
 
-    private Sequence sequence = new Sequence(0.1);
+    Sequence sequence = new Sequence(0.1);
 
     @Test
     public void testGetTheLowestNumber() {

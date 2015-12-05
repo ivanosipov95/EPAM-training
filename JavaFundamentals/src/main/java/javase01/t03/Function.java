@@ -58,8 +58,12 @@ public class Function {
     }
 
     public void print() {
+        System.out.println("+---------------------------+");
+        System.out.println("|  x  |         f(x)        |");
+        System.out.println("+---------------------------+");
         for (Map.Entry entry : table.entrySet()) {
-            System.out.println(entry.getKey() + " = " + entry.getValue());
+            System.out.printf( "| %.1f | %.16f |\n" , entry.getKey(), entry.getValue());
         }
+        System.out.println("+---------------------------+");
     }
 }
