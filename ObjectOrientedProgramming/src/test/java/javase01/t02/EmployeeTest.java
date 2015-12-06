@@ -11,7 +11,7 @@ public class EmployeeTest {
 
     @Before
     public void setUp() {
-        employee= new Employee("test", "test", 20000, "test");
+        employee = new Employee("test", "test", 20000, "test");
         employee.addStationery(new Pen("pen", 48,"gel", "black"));
         employee.addStationery(new Pencil("pencil", 20, "soft"));
     }
