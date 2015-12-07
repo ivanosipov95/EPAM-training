@@ -1,4 +1,4 @@
-package javase01.t02;
+package javase01.t02.Stationery;
 
 public class Scissors extends Stationery {
 

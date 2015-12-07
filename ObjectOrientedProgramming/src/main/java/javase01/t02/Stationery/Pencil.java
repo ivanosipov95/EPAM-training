@@ -1,10 +1,10 @@
-package javase01.t02;
+package javase01.t02.Stationery;
 
-public class Lasting extends Stationery {
+public class Pencil extends Stationery {
 
     private String type;
 
-    public Lasting(String name, double price, String type) {
+    public Pencil(String name, double price, String type) {
         this.name = name;
         this.price = price;
         this.type = type;
