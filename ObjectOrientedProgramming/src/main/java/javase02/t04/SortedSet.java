@@ -1,6 +1,6 @@
-package javase01.t04;
+package javase02.t04;
 
-import javase01.t03.BeginnerSet;
+import javase02.t03.BeginnerSet;
 
 import java.util.Collections;
 

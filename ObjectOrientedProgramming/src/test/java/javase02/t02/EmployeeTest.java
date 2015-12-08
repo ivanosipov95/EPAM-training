@@ -1,7 +1,7 @@
-package javase01.t02;
+package javase02.t02;
 
-import javase01.t02.Stationery.Pen;
-import javase01.t02.Stationery.Pencil;
+import javase02.t02.Stationery.Pen;
+import javase02.t02.Stationery.Pencil;
 
 import org.junit.Before;
 import org.junit.Test;

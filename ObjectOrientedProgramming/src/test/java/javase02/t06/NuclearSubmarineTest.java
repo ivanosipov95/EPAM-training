@@ -1,4 +1,4 @@
-package javase01.t06;
+package javase02.t06;
 
 import org.junit.Test;
 

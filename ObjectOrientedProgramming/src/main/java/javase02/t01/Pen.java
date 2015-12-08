@@ -1,4 +1,4 @@
-package javase01.t01;
+package javase02.t01;
 
 import java.util.Objects;
 

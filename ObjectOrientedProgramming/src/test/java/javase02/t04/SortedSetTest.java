@@ -1,6 +1,6 @@
-package javase01.t04;
+package javase02.t04;
 
-import javase01.t02.Stationery.*;
+import javase02.t02.Stationery.*;
 
 import org.junit.Before;
 import org.junit.Test;

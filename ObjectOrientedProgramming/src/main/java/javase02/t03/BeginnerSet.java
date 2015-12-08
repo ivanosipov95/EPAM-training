@@ -1,7 +1,7 @@
-package javase01.t03;
+package javase02.t03;
 
 
-import javase01.t02.Stationery.*;
+import javase02.t02.Stationery.*;
 
 import java.util.ArrayList;
 import java.util.List;

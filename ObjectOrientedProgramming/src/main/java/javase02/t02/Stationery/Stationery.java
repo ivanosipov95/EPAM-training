@@ -1,4 +1,4 @@
-package javase01.t02.Stationery;
+package javase02.t02.Stationery;
 
 import java.util.Objects;
 

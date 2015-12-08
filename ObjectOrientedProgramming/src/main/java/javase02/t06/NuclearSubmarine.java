@@ -1,6 +1,4 @@
-package javase01.t06;
-
-import java.util.Random;
+package javase02.t06;
 
 public class NuclearSubmarine {
 
