@@ -23,7 +23,7 @@ public class Run {
         boolean loop = true;
 
         while (loop) {
-            System.out.println("ente command:");
+            System.out.println("enter command:");
             String num = reader.readLine();
             switch (num) {
                 case "1":
