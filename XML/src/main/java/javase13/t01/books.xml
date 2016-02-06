@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tc:books xmlns:tc="http://epam.tc.com/book"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://epam.tc.com/book books.xsd">
+
+    <book id="1">
+        <title>1984</title>
+        <author>George Orwell</author>
+    </book>
+
+    <book id="2">
+        <title>Shantaram</title>
+        <author>Gregory David Roberts</author>
+    </book>
+
+</tc:books>

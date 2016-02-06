@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://epam.tc.com/book"
+        xmlns:tns="http://epam.tc.com/book">
+
+    <element name="books">
+        <complexType>
+            <sequence>
+                <element name="book" type="tns:Book"
+                minOccurs="1"
+                maxOccurs="unbounded"/>
+            </sequence>
+        </complexType>
+    </element>
+    <complexType name="Book">
+        <sequence>
+            <element name="title" type="string"/>
+            <element name="author" type="string"/>
+        </sequence>
+        <attribute name="id" type="int" use="required"/>
+    </complexType>
+</schema>
